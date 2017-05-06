@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:auto;
+	background:url(../img/bg.jpg) fixed;
+}
+
+.wrapper {
+	width:1000px;
+	height:auto;
+}
+
+.left {
+	width:370px;
+	position:fixed; 
+	margin-top:90px; 
+	float:left; 
+	z-index:1200; 
+	height:auto; 
+}
+
+.left1 {
+	width:315px;
+	height:405px;
+	float:left;
+	background:#9f2407;
+	padding-left:5px;
+	color:#fff;
+	border-radius:0 10px 10px 0;
+	box-shadow:0 3px 5px #000;
+}
+
+.left2 {
+	width:50px;
+	height:215px;
+	float:left;
+	background:url(../img/pesan.png);
+	cursor:pointer;
+	margin-top:100px;
+}
+
+.right {
+	width:950px; 
+	height:auto; 
+	background:#9f2407;
+	float:left;
+	padding:10px 0 10px 0;
+	box-shadow:0 0 7px #000;
+}
+
+.img_left {
+	width:290px;
+	height:auto;
+	background:none;
+	float:left;
+	padding-right:5px;
+	border-right:2px solid #fff;
+	margin-left:3px;
+}
+
+.img_center {
+	width:290px;
+	height:auto;
+	background:none;
+	padding:0 5px 0 5px;
+	float:left;
+}
+
+.img_right {
+	width:290px;
+	height:auto;
+	float:right;
+	background:none;
+	padding-left:5px;
+	margin-right:3px;
+	border-left:2px solid #fff;
+}
+
+.img_in {
+	width:290px;
+	height:250px;
+	background:#F90;
+	float:left;
+}
+
+.img_note {
+	width:270px;
+	float:left;
+	height:auto;
+	background:#FF6;
+	margin-top:10px;
+	padding:10px;
+	color:#333
+}
+
+span {
+	color:#F00;
+}
+
+.input {
+	width:20px;
+	padding:5px 10px 5px 10px;
+	background:#FF6;
+	border:none;
+	border-radius:10px;
+}
+
+#submit {
+	width:140px;
+	height:30px;
+	background:#FF6;
+	color:#333;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+	box-shadow:0 0 5px #000;
+}
